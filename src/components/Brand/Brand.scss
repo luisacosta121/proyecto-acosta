@@ -1,6 +1,19 @@
-.Brand{
+.brand {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
     background-color: black;
+    justify-content: center;
+  }
+
+.brand__titulo{
+
     color: white;
-    text-align: center;
+
     padding-bottom: 15px;
+}
+
+.controlador{
+    width: 50px;
+    margin-left: 50px;
 }
