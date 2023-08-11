@@ -1,10 +1,36 @@
-.container__item-detail{
-    background-color: rgb(233, 233, 234);
-    width: 500px;
-    text-align: center;
-    margin: 0;
+.container__item-detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-detail-left {
+    flex: 1;
     img{
         width: 300px;
-        height: 350px;
+        height: 400px;
     }
+  }
+  
+.item-detail-right {
+  flex: 2;
+  padding: 0 20px;
+  text-align: center;
+  h2{
+    text-transform: uppercase;
+  }
+  p{
+    font-size: large;
+  }
+}
+
+  .item-detail-quantity{
+    text-align: center;
+  }
+
+.sinstock{
+  color: red;
+}
+
+.seguir{
+  margin-bottom: 25px;
 }

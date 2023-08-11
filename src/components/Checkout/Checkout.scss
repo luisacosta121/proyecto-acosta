@@ -1,0 +1,39 @@
+.formulario{
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.form-control{
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.form-control:hover{
+    border: solid black 0.5px;
+}
+
+.formulario p{
+    color: red;
+    font-size: x-small;
+}
+
+.borrar{
+    margin-left: 20px;
+}
+
+.confirmacion{
+    text-align: center;
+    img{
+        width: 300px;
+    }
+}
+
+.volver{
+    color: black;
+}
+

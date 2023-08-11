@@ -1,16 +1,26 @@
 .juegos{
-
-    border-color: gray;
+  border-color: gray;
   border-width: 1px;
   border-style: dotted;
-    background-color: rgb(235, 235, 235);
-    text-align: center;
-    padding: 15px;
-
-
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  padding: 15px;
+  h4{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  .ultimaunidad{
+    color: red;
+  }
 }
 
 .imagenJuego{
     width: 250px;
     height: 300px;
+}
+
+.juegos .sinstock__itemcard{
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
 }

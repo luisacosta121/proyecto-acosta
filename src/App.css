@@ -4,3 +4,16 @@
   box-sizing: border-box;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 100;
+}
+
+.content-container {
+  margin-top: 161px;
+  padding: 20px;
+}

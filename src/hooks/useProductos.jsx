@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../helpers/pedirDatos"
 
-
-
 export const useProductos = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
